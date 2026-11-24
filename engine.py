@@ -6,7 +6,7 @@ g=random.Random(987123).getrandbits
 hb=[[g(64)for _ in range(128)]for _ in range(16)];hs=g(64);hc=[g(64)for _ in range(16)]
 BD=[-17,-15,15,17];RD=[-16,-1,1,16];K8=sorted(BD+RD);KN=[-33,-31,-18,-14,14,18,31,33]
 DR=[KN,BD,RD,K8,K8];KP={0:7,7:11,4:3,112:13,119:14,116:12}
-MATE=60000;Kg=[116,4]
+MATE=60000;NL=90000;Kg=[116,4]
 def Fd(fen):
  global B,w,c,e,k
  B=[0]*128;a=fen.split()
